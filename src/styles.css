@@ -1,0 +1,63 @@
+.mona {
+  --primary: #141301;
+  --secondary: #00bfff;
+  --bg: #141414;
+  --bg-secondary: #0c2e46;
+  --text: #d9dbf1;
+  --text-secondary: #2f1b25;
+}
+
+.yoimiya {
+  --primary: #800000;
+  --secondary: #f50057;
+  --tertiary: #d0a478;
+  --error: #f02b77;
+  --bg: #0a0a0a;
+  --bg-secondary: #141414;
+  --text: #e5e7e6;
+  --text-secondary: gray;
+}
+
+.ganyu {
+  --primary: #2b3a67;
+  --secondary: #dd64db;
+  --tertiary: #91f7d4;
+  --error: #ff6b35;
+  --bg: #0a0a0a;
+  --bg-secondary: #141414;
+  --text: lightblue;
+  --text-secondary: gray;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
+  border-color: var(--secondary);
+  color: var(--text);
+  height: 200vh;
+  overflow-y: auto;
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(153, 9, 9, 0.3);
+  border-radius: 0px;
+  background-color: var(--bg);
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  background-color: var(--bg);
+}
+
+*::-webkit-scrollbar:hover {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: var(--secondary);
+}
